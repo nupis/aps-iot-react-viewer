@@ -1,12 +1,10 @@
-> This sample has been replaced by https://github.com/autodesk-platform-services/aps-iot-extensions-demo.
+# aps-iot-react-viewer
 
-# forge-dataviz-iot-react-components
-
-[![npm version](https://badge.fury.io/js/forge-dataviz-iot-react-components.svg)](https://badge.fury.io/js/forge-dataviz-iot-react-components)
-![npm downloads](https://img.shields.io/npm/dw/forge-dataviz-iot-react-components.svg)
+[![npm version](https://badge.fury.io/js/aps-iot-react-viewer.svg)](https://badge.fury.io/js/aps-iot-react-viewer)
+![npm downloads](https://img.shields.io/npm/dw/aps-iot-react-viewer.svg)
 ![platforms](https://img.shields.io/badge/platform-windows%20%7C%20osx%20%7C%20linux-lightgray.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Re-usable React components used by the [Forge Dataviz IoT Reference App](https://github.com/Autodesk-Forge/forge-dataviz-iot-reference-app).
+This is a fork of the project [forge-dataviz-iot-react-components](https://github.com/Autodesk-Forge/forge-dataviz-iot-react-components). 
 
-Full instructions on how to use the package can be found [here](https://forge.autodesk.com/en/docs/dataviz/v1/developers_guide/npm_packages/react_components/)
+This project is a set of React components to visualize IoT data in the Autodesk Forge Viewer. It is built on top of the [Forge Viewer](https://forge.autodesk.com/en/docs/viewer/v7/) and provides a set of components to visualize IoT data in a React application.
