@@ -1,7 +1,7 @@
 {
     "name": "aps-iot-react-viewer",
-    "version": "0.0.2",
-    "description": "A React Component Library around the APS Viewer aka Autodesk Forge Viewer for IoT applications.",
+    "version": "0.0.3",
+    "description": "A React Component Library with a wrapper for the APS Viewer aka Autodesk Forge Viewer for IoT applications.",
     "main": "./client/app.js",
     "scripts": {
         "build": "webpack --config webpack.config.js"
