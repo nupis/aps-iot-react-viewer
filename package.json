@@ -10,7 +10,7 @@
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nupis/aps-iot-react-viewer"
+        "url": "git+https://github.com/nupis/aps-iot-react-viewer.git"
     },
     "keywords": [
         "nupis",
