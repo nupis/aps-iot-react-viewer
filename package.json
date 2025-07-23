@@ -1,7 +1,7 @@
 {
     "name": "aps-iot-react-viewer",
     "version": "0.0.2",
-    "description": "A React Component Library with a wrapper for the APS Viewer aka Autodesk Forge Viewer for IoT applications",
+    "description": "A React Component Library with a wrapper for the APS Viewer aka Autodesk Forge Viewer for IoT applications.",
     "main": "./client/app.js",
     "scripts": {
         "build": "webpack --config webpack.config.js"
@@ -10,7 +10,7 @@
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nupis/aps-iot-react-viewer"
+        "url": "git+https://github.com/nupis/aps-iot-react-viewer.git"
     },
     "keywords": [
         "nupis",
