@@ -1,18 +1,18 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const Path = require("path");
 
-var env = process.env.ENV || "local";
+const env = process.env.ENV || "local";
 const isDevEnv = /^(local|dev|develop)$/gi.test(env);
 const sourceMapOptions = isDevEnv ? "eval-cheap-module-source-map" : false;
 
-var config = [
+const config = [
     {
         entry: {
             bundle: "./client/app.js",
         },
         devtool: sourceMapOptions,
         output: {
-            filename: "[name].js",
+            filename: "index.js",
             path: __dirname + "/dist",
             libraryTarget: "umd",
             library: "hyperion",
