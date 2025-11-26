@@ -2,9 +2,9 @@
     "name": "aps-iot-react-viewer",
     "version": "0.0.3",
     "description": "A React Component Library with a wrapper for the APS Viewer aka Autodesk Forge Viewer for IoT applications.",
-    "main": "index.js,",
+    "main": "./client/app.js",
     "scripts": {
-        "build": "webpack --config webpack.config.js"
+        "build": "copyfiles \"client/**\" \"assets/**\" \"scss/**\" \"shared/**\" dist"
     },
     "author": "Autodesk Inc.",
     "license": "Apache-2.0",
@@ -53,6 +53,7 @@
         "css-loader": "3.6.0",
         "local-web-server": "4.2.1",
         "mini-css-extract-plugin": "^1.4.0",
+        "native-copyfiles": "1.3.7",
         "node-loader": "^1.0.2",
         "nodemon": "2.0.7",
         "react": "16.14.0",
