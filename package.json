@@ -1,8 +1,8 @@
 {
     "name": "aps-iot-react-viewer",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "A React Component Library with a wrapper for the APS Viewer aka Autodesk Forge Viewer for IoT applications.",
-    "main": "./client/app.js",
+    "main": "./client/viewer.js",
     "scripts": {
         "build": "copyfiles \"client/**\" \"assets/**\" \"scss/**\" \"shared/**\" dist"
     },
@@ -40,8 +40,15 @@
         "react-router-dom": "6.2.1",
         "socket.io": "4.8.1",
         "socket.io-client": "^4.8.1",
-        "uuid": "^8.3.2",
+        "uuid": "^8.3.2"
+    },
+    "peerDependencies": {
         "forge-dataviz-iot-data-modules": "0.1.11"
+    },
+    "peerDependenciesMeta": {
+        "forge-dataviz-iot-data-modules": {
+            "optional": true
+        }
     },
     "devDependencies": {
         "@babel/core": "7.27.4",
