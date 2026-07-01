@@ -1,3 +1,10 @@
+// Full barrel: includes BaseApp (the demo/app shell).
+//
+// BaseApp imports `forge-dataviz-iot-data-modules`, which is NOT a dependency or peer
+// dependency of this package (it drags in a server-side chain: forge-apis -> request,
+// express, @azure/*, aws-sdk, jsonwebtoken ...). Consumers that import from here must
+// install `forge-dataviz-iot-data-modules@0.1.11` themselves. Consumers that only need
+// the viewer should import from the slim default entry ("./client/viewer.js") instead.
 import BaseApp from "./components/BaseApp.jsx";
 import BasicDatePicker from "./components/BasicDatePicker.jsx";
 import BasicTree from "./components/BasicTree.jsx";
